@@ -22,7 +22,7 @@ const HeroSection = () => {
           height: "39rem",
           margin: "80px 50px 80px 80px",
           borderRadius: "15px",
-          backgroundImage: "url('/src/assets/havamahal.png')",
+          backgroundImage: "url('/assets/havamahal.png')",
           transform: `scale(${1 + scrollY * 0.0002})`,
           transform: `scale(${Math.min(1.1, 1 + scrollY * 0.0002)})`,
         }}
