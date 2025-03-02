@@ -26,10 +26,10 @@ export default function ContactForm() {
           from_name: form.name,
           to_name: "Punit",
           from_email: form.email,
-          to_email: "chawlapunit79@gmail.com",
+          to_email: "wead.media.mail@gmail.com",
           message: `City: ${form.city}\nWebsite: ${form.website || "N/A"} Contact Number: ${form.contactNo}`,
         },
-        "jo3jDEFHVH-V0Lwql"
+        "TXyoIxKEJkH3-ndbc"
       );
       setLoading(false);
       alert("Your message has been sent!");
