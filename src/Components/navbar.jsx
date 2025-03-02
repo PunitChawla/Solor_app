@@ -18,7 +18,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
-            <img src="/src/assets/logo.webp" alt="Logo" className="h-[110px]" />
+            <img src="/assets/logo.webp" alt="Logo" className="h-[110px]" />
           </motion.div>
 
           {/* Menu Items */}

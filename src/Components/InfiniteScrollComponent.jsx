@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import "tailwindcss/tailwind.css";
 
 const imageData = [
-  ["/src/assets/1-removebg-preview.png", "/src/assets/2-removebg-preview.png", "/src/assets/10-removebg-preview.png"],
-  ["/src/assets/3-removebg-preview.png", "/src/assets/4-removebg-preview.png", "/src/assets/5-removebg-preview.png"],
-  ["/src/assets/6-removebg-preview.png", "/src/assets/8-removebg-preview.png", "/src/assets/9-removebg-preview.png"]
+  ["/assets/1-removebg-preview.png", "/assets/2-removebg-preview.png", "/assets/10-removebg-preview.png"],
+  ["/assets/3-removebg-preview.png", "/assets/4-removebg-preview.png", "/assets/5-removebg-preview.png"],
+  ["/assets/6-removebg-preview.png", "/assets/8-removebg-preview.png", "/assets/9-removebg-preview.png"]
 ];
 
 const InfiniteScrollComponent = () => {

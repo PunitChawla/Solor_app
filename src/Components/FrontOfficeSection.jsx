@@ -21,11 +21,11 @@ const FrontOfficeSection = () => {
         {/* Icons and Dotted Lines */}
         <div className="relative flex items-center justify-between w-4/5 mt-6">
           {[
-            "/src/assets/marketing.png",
-            "/src/assets/sales.png",
-            "/src/assets/service.png",
-            "/src/assets/content.png",
-            "/src/assets/operations.png"
+            "/assets/marketing.png",
+            "/assets/sales.png",
+            "/assets/service.png",
+            "/assets/content.png",
+            "/assets/operations.png"
           ].map((src, index, arr) => (
             <div key={index} className="flex items-center">
               <motion.img
@@ -53,7 +53,7 @@ const FrontOfficeSection = () => {
         </div>
 
         {/* Vertical and Horizontal Dotted Lines */}
-        <div className="absolute left-16 top-12 flex flex-col items-center mt-32">
+        {/* <div className="absolute left-16 top-12 flex flex-col items-center mt-32">
           <motion.div
             className="h-32 w-2 border-dashed border-l-2 border-pink-500"
             initial={{ opacity: 0 }}
@@ -66,7 +66,7 @@ const FrontOfficeSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           ></motion.div>
-        </div>
+        </div> */}
 
         <motion.div
           className="relative flex justify-center mt-12"
@@ -78,13 +78,13 @@ const FrontOfficeSection = () => {
           }}
         >
           <img
-            src="/src/assets/star.png"
+            src="/assets/star.png"
             alt="Star"
             className="h-12 w-12"
             style={{ marginTop: "30px" }}
           />
           <img
-            src="/src/assets/person.png"
+            src="/assets/person.png"
             alt="Person"
             className="h-72 shadow-lg"
           />

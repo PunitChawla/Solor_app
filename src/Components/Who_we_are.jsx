@@ -19,7 +19,7 @@ const WhoWeAre = () => {
       {/* Center Image with Content */}
       <div className="absolute flex flex-col items-center justify-center">
         <img
-          src="/src/assets/middle.png" 
+          src="/assets/middle.png" 
           style={{
             // height:"100px",
             // width:"1000px"
@@ -39,7 +39,7 @@ const WhoWeAre = () => {
 
       {/* Top Left Image */}
       <motion.img
-        src="/src/assets/photo1.png"
+        src="/assets/photo1.png"
         alt="Top Left"
         className="absolute top-10 left-10 ml-10  object-cover"
         style={{
@@ -55,7 +55,7 @@ const WhoWeAre = () => {
 
       {/* Top Right Image */}
       <motion.img
-        src="/src/assets/photo2.png"
+        src="/assets/photo2.png"
         style={{
             height: "300px",
             width :"300px",
@@ -77,7 +77,7 @@ const WhoWeAre = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src="/src/assets/middle.png"
+          src="/assets/middle.png"
           alt="Bottom Left"
           className=" object-cover"
           style={{
@@ -97,7 +97,7 @@ const WhoWeAre = () => {
 
       {/* Bottom Right Image */}
       <motion.img
-        src="/src/assets/photo4.png"
+        src="/assets/photo4.png"
         style={{
             height:"250px",
             width:"250px",
@@ -113,7 +113,7 @@ const WhoWeAre = () => {
 
       {/* Logo */}
       <img
-        src="/src/assets/logo.webp"
+        src="/assets/logo.webp"
         alt="WeAd Media Logo"
         className="absolute bottom-5 right-5 w-28"
         style={{

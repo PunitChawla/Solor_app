@@ -44,9 +44,9 @@ export default function Clients() {
 
         {/* Animated Rating Boxes */}
         <div className="flex justify-center space-x-10">
-          <RatingCard imageSrc="/src/assets/decoration.png" delay={0.2} />
-          <RatingCard imageSrc="/src/assets/decoration.png" delay={0.4} />
-          <RatingCard imageSrc="/src/assets/decoration.png" delay={0.6} />
+          <RatingCard imageSrc="/assets/decoration.png" delay={0.2} />
+          <RatingCard imageSrc="/assets/decoration.png" delay={0.4} />
+          <RatingCard imageSrc="/assets/decoration.png" delay={0.6} />
         </div>
         <h2 className="text-3xl font-bold text-gray-800 text-center mt-10">
           SATISFIED CLIENTS

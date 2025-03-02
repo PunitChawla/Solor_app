@@ -2,9 +2,9 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const stats = [
-  { icon: "/src/assets/growth.png", percentage: "114%", text: "more web traffic" },
-  { icon: "/src/assets/hand.png", percentage: "55%", text: "more deals" },
-  { icon: "/src/assets/phone.png", percentage: "43%", text: "more tickets resolved" }
+  { icon: "/assets/growth.png", percentage: "114%", text: "more web traffic" },
+  { icon: "/assets/hand.png", percentage: "55%", text: "more deals" },
+  { icon: "/assets/phone.png", percentage: "43%", text: "more tickets resolved" }
 ];
 
 export default function StatsAndFooter() {
