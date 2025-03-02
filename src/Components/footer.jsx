@@ -30,7 +30,7 @@ export default function StatsAndFooter() {
 
       {/* Footer Section */}
       <footer className="flex justify-center items-center gap-6 py-6 bg-gray-900 text-white">
-        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/we_admedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-3xl hover:text-pink-500" />
         </a>
         <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
