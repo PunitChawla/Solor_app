@@ -24,7 +24,7 @@ const HeroSection = () => {
           borderRadius: "15px",
           backgroundImage: "url('/src/assets/havamahal.png')",
           transform: `scale(${1 + scrollY * 0.0002})`,
-          transition: "transform 0.3s ease-out",
+          transform: `scale(${Math.min(1.1, 1 + scrollY * 0.0002)})`,
         }}
       ></div>
 

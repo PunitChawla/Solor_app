@@ -8,6 +8,7 @@ import FrontOfficeSection from './Components/FrontOfficeSection'
 import InfiniteScrollComponent from './Components/InfiniteScrollComponent'
 import Clients from './Components/Clients'
 import ContactForm from './Components/ContactForm'
+import StatsAndFooter from './Components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,13 +19,13 @@ function App() {
       <Navbar/>
       <HeroSection/>
     </div> 
+    <div className='w-full h-screen'>
       <WhoWeAre/>
-    <div>
     </div>
-    <div className="">
+    <div className="w-full h-screen">
       <FrontOfficeSection/>
     </div>
-    <div className>
+    <div className = "w-full h-screen">
       <InfiniteScrollComponent/>
     </div>
     <div className>
@@ -32,6 +33,9 @@ function App() {
     </div>
     <div className>
      <ContactForm/>
+    </div>
+    <div className>
+     <StatsAndFooter/>
     </div>
     </>
   )

@@ -31,7 +31,7 @@ const FrontOfficeSection = () => {
               <motion.img
                 src={src}
                 alt="Icon"
-                className="h-12 w-12 object-contain"
+                className="h-20 w-20 object-contain"
                 initial="hidden"
                 animate={controls}
                 variants={{
@@ -45,7 +45,7 @@ const FrontOfficeSection = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1, delay: index * 0.2 }}
-                  style={{ animation: "moveLine 2s linear infinite" }}
+                  style={{ animation: "moveLine 1s linear infinite" }}
                 ></motion.div>
               )}
             </div>
