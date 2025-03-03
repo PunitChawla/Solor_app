@@ -1,18 +1,18 @@
-import { useState } from 'react'
-
-import './App.css'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Root from './pages/Root';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <div className='bg-red-100'>
-      hello
-    </div>
-    </>
-  )
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
