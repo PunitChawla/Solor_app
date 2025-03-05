@@ -2,24 +2,26 @@ import React from "react";
 
 const LocationsSection = () => {
   return (
-    <div className="h-screen flex flex-col md:flex-row items-center justify-center px-6 py-10 bg-gray-100 relative">
-      {/* Background Grid */}
-      <div className="absolute inset-0 bg-[url('/grid-pattern.png')] opacity-10"></div>
-
+    <div
+      className="h-screen bg-cover bg-center flex flex-col md:flex-row"
+      style={{ backgroundImage: "url('https://sse-website.s3.ap-south-1.amazonaws.com/homes/india-map-bg.svg')" }} // Replace with actual background image
+    >
       {/* Left: Text Content */}
-      <div className="md:w-1/2 text-center md:text-left z-10">
-        <h2 className="text-3xl font-bold text-gray-900">
-          SolarSquare <span className="text-cyan-500">Locations</span>
-        </h2>
-        <p className="text-gray-600 mt-4">
-          We offer solar services in 18 Indian cities, and are expanding every day!
-        </p>
+      <div className="md:w-1/2 flex items-center justify-center text-center md:text-left px-6">
+        <div>
+          <h2 className="text-5xl font-bold text-gray-900">
+            SolarSquare <span className="text-cyan-500">Locations</span>
+          </h2>
+          <p className="text-gray-600 text-xl mt-4">
+            We offer solar services in 18 Indian cities, and are expanding every day!
+          </p>
+        </div>
       </div>
 
       {/* Right: Image */}
-      <div className="md:w-1/2 flex justify-center mt-6 md:mt-0 z-10">
+      <div className="md:w-1/2 flex items-center justify-center px-6">
         <img
-          src="/locations-map.png" // Replace with actual image path
+          src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/india-map-revised-1.svg" // Replace with actual image path
           alt="SolarSquare Locations"
           className="max-w-full h-auto"
         />

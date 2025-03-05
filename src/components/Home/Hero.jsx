@@ -75,13 +75,13 @@ const Hero = () => {
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition"
       >
-        <FaChevronLeft size={24} />
+        <FaChevronLeft size={10} />
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition"
       >
-        <FaChevronRight size={24} />
+        <FaChevronRight size={10} />
       </button>
 
       {/* Dots Indicator */}
