@@ -13,7 +13,7 @@ const TestimonialSection = () => {
           />
 
         {/* Testimonial Text */}
-        <p className="text-2xl md:text-3xl font-semibold max-w-4xl leading-relaxed text-gray-900">
+        <p className="text-1xl md:text-3xl font-semibold max-w-4xl leading-relaxed text-gray-900">
           The solar installation by SolarSquare is one of those rare projects, where I have not had to get involved during the execution phase.
         </p>
 
