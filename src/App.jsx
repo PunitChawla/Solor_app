@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Root from './pages/Root';
 import Commercial from './pages/Commercial';
+import Housing_society from './pages/HousingSociety';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Root />} />
         <Route path="/home" element={<Home />} />
         <Route path="/commercial" element={<Commercial/>} />
+        <Route path="/housing_society" element={<Housing_society/>} />
       </Routes>
     </Router>
   );
