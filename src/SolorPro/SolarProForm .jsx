@@ -29,7 +29,7 @@ const SolarProForm = () => {
       
       {/* Left Side - Heading, Icons, and Text */}
       <div className="w-full md:w-1/2 space-y-6">
-        <h1 className="text-3xl md:text-5xl font-bold">
+        <h1 className="text-3xl mt-10 md:text-5xl font-bold">
           Our <span className="text-cyan-400">SolarPro</span> partnership program is for
         </h1>
 
@@ -68,7 +68,7 @@ const SolarProForm = () => {
       </div>
 
       {/* Right Side - Form */}
-      <div className="w-full md:w-1/2 bg-white text-black p-6 md:p-10 rounded-lg shadow-lg">
+      <div className="w-full mt-10 md:w-1/2 bg-white text-black p-6 md:p-10 rounded-lg shadow-lg">
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
           <label className="block">
             <span className="text-gray-700">Full Name *</span>
