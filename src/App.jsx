@@ -5,6 +5,8 @@ import Root from './pages/Root';
 import Commercial from './pages/Commercial';
 import Housing_society from './pages/HousingSociety';
 import About_us from './pages/AboutUs';
+import Go_solar from './pages/Go-solar';
+import SolarPro from './pages/SolarPro';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/commercial" element={<Commercial/>} />
         <Route path="/housing_society" element={<Housing_society/>} />
         <Route path="/aboutus" element={<About_us/>} />
+        <Route path="/go-solar" element={<Go_solar/>} />
+        <Route path="/solarpro" element={<SolarPro/>} />
       </Routes>
     </Router>
   );
