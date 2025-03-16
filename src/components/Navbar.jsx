@@ -162,7 +162,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
             >
-              <Link to="/signup" className="block bg-gradient-to-r from-blue-700 to-black text-white text-center py-3 mt-2">
+              <Link to="/go-solar" className="block bg-gradient-to-r from-blue-700 to-black text-white text-center py-3 mt-2">
                 Sign up for free electricity →
               </Link>
             </motion.div>

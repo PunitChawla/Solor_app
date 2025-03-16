@@ -30,7 +30,7 @@ const ConsultationForm = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-6 bg-gray-100 min-h-screen">
+    <div className=" mt-20 flex flex-col md:flex-row items-center justify-center gap-8 p-6 bg-gray-100 min-h-screen">
       {/* Left Side - Bigger Image Carousel with Heading */}
       <div className="w-full md:w-1/2 text-center md:text-left flex flex-col">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
