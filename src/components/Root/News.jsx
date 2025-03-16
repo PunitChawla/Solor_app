@@ -8,7 +8,7 @@ const newsData = [
   {
     id: 1,
     image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/ur-story.png", // Replace with actual paths
-    title: "How SolarSquare has a chance to become a home energy brand in India",
+    title: "How doctor electric  has a chance to become a home energy brand in India",
     source: "Forbes",
     date: "Dec 12, 2024",
     link: "#",
@@ -16,7 +16,7 @@ const newsData = [
   {
     id: 2,
     image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/in_the_news_4.webp",
-    title: "SolarSquare raises $40 million in one of India’s largest solar VC deals",
+    title: "doctor electric  raises $40 million in one of India’s largest solar VC deals",
     source: "Business Today",
     date: "Dec 12, 2024",
     link: "#",
@@ -24,7 +24,7 @@ const newsData = [
   {
     id: 2,
     image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/forbes-img.png",
-    title: "SolarSquare raises $40 million in one of India’s largest solar VC deals",
+    title: "doctor electric  raises $40 million in one of India’s largest solar VC deals",
     source: "Business Today",
     date: "Dec 12, 2024",
     link: "#",
@@ -32,7 +32,7 @@ const newsData = [
   {
     id: 2,
     image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/in_the_news_5.webp",
-    title: "SolarSquare raises $40 million in one of India’s largest solar VC deals",
+    title: "doctor electric  raises $40 million in one of India’s largest solar VC deals",
     source: "Business Today",
     date: "Dec 12, 2024",
     link: "#",
@@ -40,7 +40,7 @@ const newsData = [
   {
     id: 3,
     image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/in_the_news_4.webp",
-    title: "SolarSquare raises $40 million in Series B funding round",
+    title: "doctor electric  raises $40 million in Series B funding round",
     source: "The Hindu",
     date: "Dec 12, 2024",
     link: "#",

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    text: "The first distinctive impression about SolarSquare was their pre-sales work; the turnaround time for complex queries on material and execution was exemplary.",
+    text: "The first distinctive impression about doctor electric was their pre-sales work; the turnaround time for complex queries on material and execution was exemplary.",
     author: "SomAnathan Sundaram, Purva Fountain Square, Bangalore",
     image: "https://www.solarsquare.in/images/cm-carousel-1.png", 
   },
@@ -12,12 +12,12 @@ const testimonials = [
     image: "https://www.solarsquare.in/images/cm-carousel-2.png", 
   },
   {
-    text: "SolarSquare team was highly professional and committed throughout the process. Their detailed approach helped us understand the benefits of solar energy better.",
+    text: "doctor electric team was highly professional and committed throughout the process. Their detailed approach helped us understand the benefits of solar energy better.",
     author: "Rahul Sharma, Prestige Shantiniketan, Bangalore",
     image: "https://www.solarsquare.in/images/cm-carousel-1.png",
   },
   {
-    text: "The installation was seamless, and the customer support was outstanding. Highly recommend SolarSquare!",
+    text: "The installation was seamless, and the customer support was outstanding. Highly recommend doctor electric!",
     author: "Meera Nair, Oberoi Splendor, Mumbai",
     image: "https://www.solarsquare.in/images/cm-carousel-2.png", 
   },

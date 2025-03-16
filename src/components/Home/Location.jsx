@@ -10,7 +10,7 @@ const LocationsSection = () => {
       <div className="md:w-1/2 flex items-center justify-center text-center md:text-left px-6">
         <div>
           <h2 className="text-5xl font-bold text-gray-900">
-            SolarSquare <span className="text-cyan-500">Locations</span>
+          doctor electric  <span className="text-cyan-500">Locations</span>
           </h2>
           <p className="text-gray-600 text-xl mt-4">
             We offer solar services in 18 Indian cities, and are expanding every day!
@@ -21,7 +21,7 @@ const LocationsSection = () => {
       {/* Right: Image */}
       <div className="md:w-1/2 flex items-center justify-center px-6">
         <img
-          src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/india-map-revised-1.svg" // Replace with actual image path
+          src="/assets/map.png" // Replace with actual image path
           alt="SolarSquare Locations"
           className="max-w-full h-auto"
         />

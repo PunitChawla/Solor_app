@@ -12,7 +12,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-         India's top companies choose SolarSquare.
+         India's top companies choose doctor electric .
         </motion.h1>
       
         <motion.div

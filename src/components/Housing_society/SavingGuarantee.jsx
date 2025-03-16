@@ -7,14 +7,14 @@ const SavingsGuarantee = () => {
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-5xl mx-auto">
         Guaranteed performance, guaranteed savings. No surprises.
         <br />
-        Introducing 5-year savings guarantee from SolarSquare
+        Introducing 5-year savings guarantee from doctor electric 
       </h2>
 
       {/* Image Section */}
       <div className="relative mt-10 flex justify-center">
         <img
           src="https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png"
-          alt="SolarSquare Guarantee"
+          alt="doctor electric  Guarantee"
           className="w-full max-w-4xl rounded-lg shadow-lg"
         />
 

@@ -18,7 +18,7 @@ const Map = () => {
 
       {/* Image */}
       <img
-        src="https://www.solarsquare.in/images/india_map.svg" // Replace with your actual image path
+        src="/assets/map.png" // Replace with your actual image path
         alt="map"
         className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
       />

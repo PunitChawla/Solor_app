@@ -36,23 +36,24 @@ const Timeline = () => {
           <div className="flex flex-wrap justify-center md:justify-between items-center gap-8">
             {/* Timeline Items */}
             {[
-              { img: "journey-1+(1).png", text: "Founded in 2015" },
-              { img: "journey-2+(1).png", text: "100+ Clients Solarized" },
-              { img: "journey-3+(1).png", text: "18,000+ Happy Customers" },
-              { img: "journey-4+(1).png", text: "170+ Housing Societies" },
-              { img: "journey-5+(1).png", text: "105+ Commercial Businesses" },
-            ].map((item, index) => (
-              <div key={index} className="timeline-item text-center opacity-0 translate-y-10 transition-all duration-1000">
-                <div className="w-20 h-20 flex items-center justify-center bg-white shadow-lg rounded-full mx-auto">
-                  <img
-                    src={`https://sse-website.s3.ap-south-1.amazonaws.com/about-us/${item.img}`}
-                    alt={`Icon ${index + 1}`}
-                    className="w-20 h-20"
-                  />
-                </div>
-                <p className="text-gray-800 text-ssm mt-7">{item.text}</p>
-              </div>
-            ))}
+                  { img: "/assets/logo3.png", text: "Founded in 2015", local: true }, // Local Image
+                  { img: "journey-2+(1).png", text: "100+ Clients Solarized" },
+                  { img: "journey-3+(1).png", text: "18,000+ Happy Customers" },
+                  { img: "journey-4+(1).png", text: "170+ Housing Societies" },
+                  { img: "journey-5+(1).png", text: "105+ Commercial Businesses" },
+                  ].map((item, index) => (
+                  <div key={index} className="timeline-item text-center opacity-0 translate-y-10 transition-all duration-1000">
+                    <div className="w-20 h-20 flex items-center justify-center bg-white shadow-lg rounded-full mx-auto">
+                      <img
+                        src={item.local ? item.img : `https://sse-website.s3.ap-south-1.amazonaws.com/about-us/${item.img}`}
+                        alt={`Icon ${index + 1}`}
+                        className="w-20 h-20"
+                      />
+                    </div>
+                    <p className="text-gray-800 text-ssm mt-7">{item.text}</p>
+                  </div>
+                  ))}
+
           </div>
         </div>
       </div>

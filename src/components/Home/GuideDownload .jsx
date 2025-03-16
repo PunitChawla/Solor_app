@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const GuideDownload = () => {
   return (
-    <div className="h-screen bg-cyan-500 flex flex-col lg:flex-row items-center justify-center px-6 py-12 text-center lg:text-left">
+    <div className="h-screen bg-[#06CAF6] flex flex-col lg:flex-row items-center justify-center px-6 py-12 text-center lg:text-left">
       {/* Left Section */}
       <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-white">
         <h2 className="text-3xl md:text-5xl font-bold">
@@ -39,9 +39,9 @@ const GuideDownload = () => {
       {/* Right Section (Image) */}
       <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0">
         <img
-          src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/mobile/mockup-handbook-mobile.png"
+          src="/assets/book.png"
           alt="Guide Book"
-          className="w-3/4 lg:w-2/3 drop-shadow-xl"
+          className="w-3/4 lg:w-2/3 "
         />
       </div>
     </div>

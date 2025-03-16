@@ -20,7 +20,7 @@ const SolarMaintenance = () => {
         {/* Text on the Right */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            Don’t worry about water leakage with SolarSquare. Ever.
+            Don’t worry about water leakage with doctor electric . Ever.
           </h2>
           <p className="text-gray-700 mt-4">
             Our installations are secured to your roof with superior chemical

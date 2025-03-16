@@ -28,7 +28,7 @@ const WhyPartner = () => {
     <div className="text-center py-10 px-4">
       {/* Heading */}
       <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-8">
-        Why partner with SolarSquare?
+        Why partner with doctor electric ?
       </h2>
 
       {/* Features Grid */}

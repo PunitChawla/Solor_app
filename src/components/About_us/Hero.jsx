@@ -26,7 +26,7 @@ const AnimatedGallery = () => {
         We make <span className="text-blue-500">rooftop solar</span> with integrity
       </h2>
       <p className="text-center text-base md:text-lg max-w-2xl mb-4">
-        SolarSquare is a team of 700+ engineers, MBAs, scientists, and creative thinkers
+      doctor electric  is a team of 700+ engineers, MBAs, scientists, and creative thinkers
         driven by the vision of accelerating solar adoption in India.
       </p>
 

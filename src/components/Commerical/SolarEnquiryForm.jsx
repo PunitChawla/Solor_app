@@ -115,7 +115,7 @@ const SolarEnquiryForm = () => {
                 onChange={() => setChecked(!checked)}
                 className="w-4 h-4"
               />
-              I agree to SolarSquare's{" "}
+              I agree to doctor electric 's{" "}
               <a href="#" className="text-blue-500 underline">
                 terms of service
               </a>{" "}

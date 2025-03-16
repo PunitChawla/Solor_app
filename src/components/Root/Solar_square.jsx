@@ -7,7 +7,7 @@ const Solar_square = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
         {/* Left Section */}
         <div className="space-y-4">
-          <img src="https://sse-website.s3.ap-south-1.amazonaws.com/brands/brand-logo-white.svg" alt="Company Logo" className="w-40" />
+          <img src="/assets/bluelogo.png" alt="Company Logo" className="w-40" />
           <p>Rooftop solar made simple. We don't just sell solar — we give you peace of mind.</p>
           <div className="flex items-center space-x-3">
             <FaPhone />
@@ -15,7 +15,7 @@ const Solar_square = () => {
           </div>
           <div className="flex items-center space-x-3">
             <FaEnvelope />
-            <span>welisten@solarsquare.in</span>
+            <span>welisten@doctorelectric .in</span>
           </div>
           {/* Social Media Icons */}
           <div className="flex space-x-4 text-2xl mt-4">

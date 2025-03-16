@@ -29,7 +29,7 @@ const WhyChooseSolar = () => {
     <div className="flex flex-col items-center justify-center h-screen px-6 py-10">
       {/* Heading */}
       <h2 className="text-3xl font-bold text-gray-900 text-center">
-        Why choose <span className="text-cyan-500">SolarSquare</span> for your solar installation
+        Why choose <span className="text-cyan-500">doctor electric </span> for your solar installation
       </h2>
 
       {/* Feature Grid */}

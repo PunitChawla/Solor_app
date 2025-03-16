@@ -15,7 +15,7 @@ const TestimonialSection = () => {
         {/* Testimonial Text */}
         <p className="text-sm md:text-1xl font-semibold max-w-4xl leading-relaxed text-gray-900">
           
-SolarSquare installed rooftop solar in our society in 2020 and have been doing regular maintenance visits for the last 3 years. We wanted only the best technology and best installer in India for our society’s solar project. We are glad we went ahead with SolarSquare. They genuinely care about doing safe, high-quality installations and ensure the high-performance of your solar system through maintenance.
+Doctor electric  installed rooftop solar in our society in 2020 and have been doing regular maintenance visits for the last 3 years. We wanted only the best technology and best installer in India for our society’s solar project. We are glad we went ahead with Doctor electric . They genuinely care about doing safe, high-quality installations and ensure the high-performance of your solar system through maintenance.
 
 Our monthly electricity bill has gone down from Rs 80,000+ to almost zero now
         </p>
@@ -44,7 +44,7 @@ Our monthly electricity bill has gone down from Rs 80,000+ to almost zero now
       {/* Lower Div - Full Width Image */}
       <div className="w-full">
         <img
-          src="https://www.solarsquare.in/images/housing-society/moving-van.png"
+          src="/assets/van.png"
           alt="City Illustration"
           className="w-full"
         />

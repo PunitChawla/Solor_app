@@ -174,7 +174,7 @@ const ConsultationForm = () => {
           <label className="flex items-center space-x-2 text-gray-600">
             <input type="checkbox" required className="w-4 h-4" />
             <span>
-              I agree to SolarSquare’s{" "}
+              I agree to doctor electric{" "}
               <a href="#" className="text-blue-600 underline">terms of service</a> &{" "}
               <a href="#" className="text-blue-600 underline">privacy policy</a>
             </span>
