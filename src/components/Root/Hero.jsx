@@ -37,7 +37,7 @@ const HeroSection = () => {
 
       {/* Bottom Section */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-3 bg-white shadow-lg rounded-lg p-3 px-5">
-        <img src="/public/google-logo.png" alt="Google" className="w-12 h-12 rounded-full" />
+        <img src="/assets/google-logo.png" alt="Google" className="w-12 h-12 rounded-full" />
         <div>
           <p className="text-gray-700 font-semibold">SolarSquare is India's trusted solar company</p>
           <p className="text-blue-500 font-semibold">Rated 4.8 on Google with 5000+ customer reviews</p>
