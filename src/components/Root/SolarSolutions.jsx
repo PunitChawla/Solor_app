@@ -4,9 +4,9 @@ const SolarSolutions = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const solutions = [
-    { image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/Category-home.jpg", label: "Homes" },
-    { image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/Category-housing.jpg", label: "Housing Society" },
-    { image: "https://sse-website.s3.ap-south-1.amazonaws.com/home-page/Category-commer.jpg", label: "Commercial" }
+    { image: "https://www.yorkshireroofing.com/wp-content/uploads/2019/07/solar-example.jpg", label: "Homes" },
+    { image: "https://plus.unsplash.com/premium_photo-1682148026899-d21f17c04e80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", label: "Housing Society" },
+    { image: "https://plus.unsplash.com/premium_photo-1682148196781-8bbcdfd7f537?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", label: "Commercial" }
   ];
 
   return (

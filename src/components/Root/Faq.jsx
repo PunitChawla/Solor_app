@@ -126,7 +126,7 @@ export default function FAQ() {
         </div>
         {/* Right Side - Image */}
         <div className={`w-full md:w-2/5 flex justify-center ${isMobileView ? "order-1 mb-4" : "order-2"}`}>
-          <img src="https://sse-website.s3.ap-south-1.amazonaws.com/home-page/FAQ_new.webp" alt="Solar Expert" className="w-96 h-96 object-cover rounded-full" />
+          <img src="/assets/face.jpg" alt="Solar Expert" className="w-96 h-96 object-cover rounded-full" />
         </div>
       </div>
     </div>

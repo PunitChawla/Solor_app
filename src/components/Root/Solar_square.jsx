@@ -11,7 +11,7 @@ const Solar_square = () => {
           <p>Rooftop solar made simple. We don't just sell solar — we give you peace of mind.</p>
           <div className="flex items-center space-x-3">
             <FaPhone />
-            <span>98 3000 3000</span>
+            <span>7411046519</span>
           </div>
           <div className="flex items-center space-x-3">
             <FaEnvelope />

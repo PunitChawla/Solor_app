@@ -8,32 +8,24 @@ const Footer = () => {
         <h3 className="font-bold text-lg mb-4">We are present here</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-gray-300">
           <div>
-            <span className="font-bold text-white">• Delhi NCR</span> Solar in Delhi, Solar in Gurugram, Solar in NCR
+            <span className="font-bold text-lg text-white">• Varanasi</span> 
           </div>
           <div>
-            <span className="font-bold text-white">• Gujarat</span> Solar in Ahmedabad, Solar in Anand, Solar in Gandhinagar, Solar in Surat, Solar in Vadodara
+            <span className="font-bold text-lg text-white">• Chandauli</span> 
           </div>
           <div>
-            <span className="font-bold text-white">• Karnataka</span> Solar in Bengaluru, Solar in Mysuru
+            <span className="font-bold  text-lg text-white">• Prayagraj</span> 
           </div>
           <div>
-            <span className="font-bold text-white">• Madhya Pradesh</span> Solar in Bhopal, Solar in Gwalior, Solar in Indore, Solar in Jabalpur
+            <span className="font-bold text-lg text-white">• Bhadohi</span>
           </div>
           <div>
-            <span className="font-bold text-white">• Maharashtra</span> Solar in Amravati, Solar in Mumbai, Solar in Nagpur, Solar in Nashik, Solar in Pune, Solar in Thane
+            <span className="font-bold text-lg text-white">• Jaunpur</span> 
           </div>
           <div>
-            <span className="font-bold text-white">• Rajasthan</span> Solar in Ajmer, Solar in Jaipur
+            <span className="font-bold text-lg text-white">• Many more </span> 
           </div>
-          <div>
-            <span className="font-bold text-white">• Telangana</span> Solar in Hyderabad, Solar in RangaReddy, Solar in Warangal
-          </div>
-          <div>
-            <span className="font-bold text-white">• Uttar Pradesh</span> Solar in Kanpur Nagar, Solar in Lucknow, Solar in Varanasi, Solar in Ghaziabad
-          </div>
-          <div>
-            <span className="font-bold text-white">• Tamil Nadu</span> Solar in Chennai
-          </div>
+          
         </div>
 
         {/* Bottom Section */}

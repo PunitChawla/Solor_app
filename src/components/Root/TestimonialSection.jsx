@@ -50,7 +50,7 @@ const TestimonialSection = () => {
         <div className="w-full">
           <iframe
             className="w-full h-64 md:h-96 rounded-lg"
-             src="https://www.youtube.com/embed/GA81QgPlB1U"
+             src="https://www.youtube.com/embed/0SvJDRJ62UM?si=gdV-Fdaplae-WB1v"
             title="Customer Testimonial"
             frameBorder="0"
             allowFullScreen
