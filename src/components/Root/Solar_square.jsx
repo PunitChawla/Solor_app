@@ -15,7 +15,7 @@ const Solar_square = () => {
           </div>
           <div className="flex items-center space-x-3">
             <FaEnvelope />
-            <span>welisten@doctorelectric .in</span>
+            <span>yt.doctorelectric@gmail.com</span>
           </div>
           {/* Social Media Icons */}
           <div className="flex space-x-4 text-2xl mt-4">

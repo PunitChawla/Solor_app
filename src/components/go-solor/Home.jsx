@@ -12,7 +12,7 @@ const ConsultationForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formRef.current, "YOUR_PUBLIC_KEY")
+      .sendForm("service_iesp3p5", "template_sdshsc9", formRef.current, "3y4Z1YVydTBC0Y5hT")
       .then(() => alert("Form submitted successfully!"), () => alert("Failed to send form."));
 
     formRef.current.reset();

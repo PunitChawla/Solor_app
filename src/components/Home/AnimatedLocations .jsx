@@ -12,7 +12,7 @@ const locations = [
 const AnimatedLocations = () => {
   return (
     <div
-      className="relative h-auto min-h-screen bg-cover bg-center flex flex-col items-center justify-center px-6 py-12"
+      className=" relative h-auto min-h-screen bg-cover bg-center flex flex-col items-center justify-center px-6 py-12"
       style={{
         backgroundImage: "url('https://sse-website.s3.ap-south-1.amazonaws.com/homes/india-map-bg.svg')",
       }}

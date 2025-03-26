@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 const SolarEnquiryForm = () => {
   const formRef = useRef();
   const [checked, setChecked] = useState(false);
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,21 +14,44 @@ const SolarEnquiryForm = () => {
       return;
     }
 
+    const formData = new FormData(formRef.current);
+    const formattedMessage = `
+      Name: ${formData.get("name") || "N/A"} 
+      Company Name: ${formData.get("companyName") || "N/A"}
+      WhatsApp Number: ${formData.get("whatsapp") || "N/A"}
+      City: ${formData.get("city") || "N/A"}
+      Pin Code: ${formData.get("pinCode") || "N/A"}
+      Monthly Bill: ${formData.get("monthlyBill") || "N/A"}
+    `;
+
+    const emailData = {
+      message: formattedMessage,
+      to_name: "Punit",
+      to_email: "yt.doctorelectric@gmail.com",
+    };
+
     emailjs
-      .sendForm(
-        "your_service_id", // Replace with your EmailJS service ID
-        "your_template_id", // Replace with your EmailJS template ID
-        formRef.current,
-        "your_public_key" // Replace with your EmailJS public key
+      .send(
+        "service_iesp3p5", // Replace with your Email.js service ID
+        "template_sdshsc9", // Your modified Email.js template ID
+        emailData,
+        "3y4Z1YVydTBC0Y5hT" // Replace with your Email.js public key
       )
       .then(
-        () => alert("Form submitted successfully!"),
-        (error) => alert("Error submitting form: " + error.text)
+        () => {
+          setMessage("Your enquiry has been submitted successfully!");
+          formRef.current.reset();
+          setChecked(false);
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          setMessage("Error submitting the enquiry. Please try again.");
+        }
       );
   };
 
   return (
-    <div className="bg-[#00008b]  min-h-screen flex items-center justify-center px-6 py-16">
+    <div className="bg-[#00008b] min-h-screen flex items-center justify-center px-6 py-16">
       <div className="container max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Section */}
         <div className="text-white text-center md:text-left flex-1">
@@ -39,7 +63,7 @@ const SolarEnquiryForm = () => {
           </p>
         </div>
 
-        {/* Right Section (Smaller Form) */}
+        {/* Right Section (Form) */}
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg w-full md:w-[55%]">
           <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-4">
             {/* Name */}
@@ -115,7 +139,7 @@ const SolarEnquiryForm = () => {
                 onChange={() => setChecked(!checked)}
                 className="w-4 h-4"
               />
-              I agree to doctor electric 's{" "}
+              I agree to doctor electric's{" "}
               <a href="#" className="text-blue-500 underline">
                 terms of service
               </a>{" "}
@@ -132,6 +156,12 @@ const SolarEnquiryForm = () => {
             >
               Submit
             </button>
+
+            {message && (
+              <p className="mt-3 text-center text-green-600 font-semibold">
+                {message}
+              </p>
+            )}
           </form>
         </div>
       </div>

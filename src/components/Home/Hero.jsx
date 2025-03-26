@@ -5,25 +5,25 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 // Array of objects containing images, headings, and descriptions
 const slides = [
   {
-    image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/slider-1.jpg",
+    image: "/assets/bg1.jpg",
     heading: "Your roof, your solar, our responsibility",
     description: "End-to-end service. No middlemen.",
   },
   {
-    image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/slider-3.jpg",
+    image: "/assets/bg2.jpg",
     heading: "Power Your Home with Clean Energy",
     description: "Switch to solar and save money on electricity bills.",
   },
   {
-    image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/slider-1.jpg",
+    image: "/assets/bg3.jpg",
     heading: "Sustainable Energy for a Better Future",
     description: "Invest in solar, invest in tomorrow.",
   },
-  {
-    image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/slider-3.jpg",
-    heading: "Say Goodbye to High Electricity Bills",
-    description: "Experience energy independence with solar power.",
-  },
+  // {
+  //   image: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/slider-3.jpg",
+  //   heading: "Say Goodbye to High Electricity Bills",
+  //   description: "Experience energy independence with solar power.",
+  // },
 ];
 
 const Hero = () => {

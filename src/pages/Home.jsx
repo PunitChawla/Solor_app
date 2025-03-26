@@ -17,10 +17,10 @@ export default function Home() {
         <ConsultationForm/>
         <NewsSlider/>
         <WhyChooseSolar/>
-        <div className="md:pt-0 pt-[250px]">
+        <div className="md:pt-0 md: pt-[250px]">
             <LocationsSection />
         </div>
-        <div className="">
+        <div className="mt-[-200px] md:">
         <AnimatedLocations/>
         </div>
         <GuideDownload/>

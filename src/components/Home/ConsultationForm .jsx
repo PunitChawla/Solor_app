@@ -17,33 +17,48 @@ const ConsultationForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleElectricityBillSelect = (option) => {
+    setFormData({ ...formData, electricityBill: option });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .send(
-        "YOUR_SERVICE_ID", // Replace with your Email.js service ID
-        "YOUR_TEMPLATE_ID", // Replace with your Email.js template ID
-        formData,
-        "YOUR_PUBLIC_KEY" // Replace with your Email.js public key
-      )
-      .then(
-        () => {
-          setMessage("Your request has been sent successfully!");
-          setFormData({
-            fullName: "",
-            whatsapp: "",
-            electricityBill: "",
-            pinCode: "",
-            city: "",
-            email: "",
-          });
-        },
-        (error) => {
-          console.error("FAILED...", error);
-          setMessage("Error sending the request. Please try again.");
-        }
+    const emailData = {
+      from_name: formData.fullName || "N/A",
+      to_name: "Harshi",
+      from_email: formData.email || "N/A",
+      to_email: "yt.doctorelectric@gmail.com",
+      message: `WhatsApp: ${formData.whatsapp}\n
+                Monthly Electricity Bill: ${formData.electricityBill}\n
+                Pin Code: ${formData.pinCode}\n
+                City: ${formData.city || "N/A"}\n
+                Email: ${formData.email || "N/A"}`
+    };
+
+    console.log("Sending Email with Data:", emailData); // Debugging
+
+    try {
+      await emailjs.send(
+        "service_iesp3p5",  // Replace with your Email.js service ID
+        "template_sdshsc9", // Replace with your Email.js template ID
+        emailData,
+        "3y4Z1YVydTBC0Y5hT" // Replace with your Email.js public key
       );
+
+      setMessage("Your request has been sent successfully!");
+      setFormData({
+        fullName: "",
+        whatsapp: "",
+        electricityBill: "",
+        pinCode: "",
+        city: "",
+        email: "",
+      });
+    } catch (error) {
+      console.error("FAILED...", error);
+      setMessage("Error sending the request. Please try again.");
+    }
   };
 
   return (
@@ -51,12 +66,10 @@ const ConsultationForm = () => {
       {/* Left Content */}
       <div className="w-full md:w-1/2 p-6">
         <h2 className="text-3xl font-bold">
-          Schedule a <span className="text-cyan-400">FREE consultation</span>{" "}
-          with us today!
+          Schedule a <span className="text-cyan-400">FREE consultation</span> with us today!
         </h2>
         <p className="mt-2 text-gray-200">
-          Get genuine advice from our solar experts. No pressure, book only if
-          you are satisfied!
+          Get genuine advice from our solar experts. No pressure, book only if you are satisfied!
         </p>
       </div>
 
@@ -91,9 +104,7 @@ const ConsultationForm = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block font-semibold">
-              Monthly Electricity Bill *
-            </label>
+            <label className="block font-semibold">Monthly Electricity Bill *</label>
             <div className="flex flex-wrap gap-2 mt-2">
               {["< ₹1500", "₹1500 - ₹2500", "₹2500 - ₹4000", "₹4000 - ₹8000", "> ₹8000"].map(
                 (option) => (
@@ -105,9 +116,7 @@ const ConsultationForm = () => {
                         ? "bg-black text-white"
                         : "bg-white text-black"
                     }`}
-                    onClick={() =>
-                      setFormData({ ...formData, electricityBill: option })
-                    }
+                    onClick={() => handleElectricityBillSelect(option)}
                   >
                     {option}
                   </button>
@@ -154,7 +163,7 @@ const ConsultationForm = () => {
           <div className="mb-4">
             <label className="flex items-center text-sm">
               <input type="checkbox" className="mr-2" required />
-              I agree to doctor electric 's{" "}
+              I agree to doctor electric's{" "}
               <a href="#" className="text-blue-500 underline">
                 terms of service
               </a>{" "}

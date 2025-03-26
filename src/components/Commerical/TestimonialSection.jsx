@@ -28,13 +28,13 @@ const TestimonialSection = () => {
         <div className="mt-8 flex flex-col items-center">
           <div className="relative">
             <img
-              src="https://www.solarsquare.in/images/commercial/n-krishnamoorthy.png"
+              src="/assets/admin.jpg"
               alt="Testimonial Profile"
               className="w-20 h-20 rounded-full border-4 border-blue-500"
             />
           </div>
-          <p className="text-blue-600 font-bold mt-3 text-lg">N Krishnamoorthy,</p>
-          <p className="text-gray-600 text-md">Director, TVS & Sons</p>
+          <p className="text-blue-600 font-bold mt-3 text-lg"> Rukum Kesh Rai</p>
+          <p className="text-gray-600 text-md">Director, Doctor Electric</p>
         </div>
       </div>
 
