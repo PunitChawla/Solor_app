@@ -5,27 +5,27 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projectData = [
   {
-    img: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-4+.png",
+    img: "/assets/project5.jpg",
     title: "Maurishka Palace, Mangalore",
     subtitle: "140 kW rooftop solar, September 2020",
   },
   {
-    img: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-2.png",
-    title: "Project 2 Title",
+    img: "/assets/project1.jpg",
+    title: "Maruadih Rly. Settlement , Uttar Pradesh India ",
     subtitle: "100 kW rooftop solar, June 2021",
   },
   {
-    img: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-5.png",
+    img: "/assets/project2.jpg",
     title: "Project 3 Title",
     subtitle: "150 kW rooftop solar, July 2023",
   },
   {
-    img: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-3.png",
+    img: "/assets/project3.jpg",
     title: "Project 4 Title",
     subtitle: "120 kW rooftop solar, March 2022",
   },
   {
-    img: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-5.png",
+    img: "/assets/project4.jpg",
     title: "Project 5 Title",
     subtitle: "150 kW rooftop solar, July 2023",
   },

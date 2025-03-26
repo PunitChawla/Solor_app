@@ -19,10 +19,10 @@ const Solar_square = () => {
           </div>
           {/* Social Media Icons */}
           <div className="flex space-x-4 text-2xl mt-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            <a href="https://www.facebook.com/share/1CCAPBjbzZ/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+            <a href="https://youtube.com/@doctorelectricvns?si=Pxrjg0a4V1NN5X9E" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+            <a href="https://www.instagram.com/doctorelectricvns?igsh=bTF1a3Rid2Y5dXFl" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a> */}
           </div>
         </div>
 

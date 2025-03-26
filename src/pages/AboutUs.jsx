@@ -10,7 +10,7 @@ export default function About_us(){
     return <div>
         <AnimatedGallery/>
         <VisionSection/>
-        <TeamSection/>
+        {/* <TeamSection/> */}
         <Timeline/>
         <Solar_square/>
         <Footer/>

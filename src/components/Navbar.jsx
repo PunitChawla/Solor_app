@@ -14,41 +14,16 @@ export default function Navbar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="max-w-8xl mx-auto px-6 py-3 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         
-        {/* Logos Wrapped as One Element in Mobile */}
-        <div className="flex items-center space-x-0 flex-shrink-0 md:hidden mx-auto">
-          <motion.img
-            src="/assets/logo.png"
-            alt="Logo"
-            className="w-[120px] h-[50px] object-contain"
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          />
-          <motion.img
-            src="/assets/logo3.png"
-            alt="Second Logo"
-            className="w-[120px] h-[50px] object-contain"
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          />
-        </div>
-
-        {/* Desktop View - Logos Left-Aligned */}
-        <div className="hidden md:flex items-center space-x-0">
-          <motion.img
-            src="/assets/logo.png"
-            alt="Logo"
-            className="w-[120px] h-[50px] object-contain"
-          />
-          <motion.img
-            src="/assets/logo3.png"
-            alt="Second Logo"
-            className="w-[120px] h-[50px] object-contain"
-          />
-        </div>
+        {/* Logo as Background Image */}
+        <motion.div
+          className="w-[150px] h-[50px] bg-no-repeat bg-contain"
+          style={{ backgroundImage: "url('/assets/logo3.png')" }}
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+        />
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
@@ -70,7 +45,43 @@ export default function Navbar() {
               </Link>
             </motion.div>
           ))}
+
+          {/* More Dropdown */}
+          <div className="relative">
+            <button 
+              className="flex items-center text-gray-800 hover:text-black"
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+            >
+              More <ChevronDown size={18} className="ml-1" />
+            </button>
+
+            <AnimatePresence>
+              {dropdownOpen && (
+                <motion.div 
+                  initial={{ opacity: 0, y: -5 }} 
+                  animate={{ opacity: 1, y: 0 }} 
+                  exit={{ opacity: 0, y: -5 }}
+                  transition={{ duration: 0.5 }}
+                  className="absolute top-8 left-0 bg-white shadow-lg rounded-lg py-2 w-40"
+                >
+                  <Link to="/solarpro" className="block px-4 py-2 hover:bg-gray-100">SolarPro</Link>
+                  <Link to="/blog" className="block px-4 py-2 hover:bg-gray-100">Blog</Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
+
+        {/* CTA Button */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+        >
+          <Link to="/go-solar" className="hidden md:block bg-gradient-to-r from-blue-700 to-black text-white px-6 py-2 rounded-full shadow">
+            Sign up for free electricity →
+          </Link>
+        </motion.div>
 
         {/* Mobile Menu Button */}
         <motion.button 

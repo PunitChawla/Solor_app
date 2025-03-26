@@ -41,9 +41,9 @@ const ConsultationForm = () => {
         {/* Image Carousel with Bigger Height */}
         <div className="mt-6 w-full h-[450px] rounded-lg shadow-lg overflow-hidden">
           <Slider {...sliderSettings}>
-            <img src="https://sse-website.s3.ap-south-1.amazonaws.com/blog/image00013+1-min.png" alt="Solar Image 1" className="w-full h-[500px] object-cover" />
-            <img src="https://sse-website.s3.ap-south-1.amazonaws.com/blog/image00013+1-min.png" alt="Solar Image 2" className="w-full h-[500px] object-cover" />
-            <img src="https://sse-website.s3.ap-south-1.amazonaws.com/blog/image00001+(2)+(cc)+1-min.png" alt="Solar Image 3" className="w-full h-[500px] object-cover" />
+            <img src="/assets/book mockups.png" alt="Solar Image 1" className="w-full h-[500px] object-cover" />
+            <img src="/assets/teamvanity.jpg" alt="Solar Image 2" className="w-full h-[500px] object-cover" />
+            <img src="/assets/project1.jpg" alt="Solar Image 3" className="w-full h-[500px] object-cover" />
           </Slider>
         </div>
       </div>

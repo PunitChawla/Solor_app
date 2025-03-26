@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-2", rowSpan: "row-span-1", direction: "left" },
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-1", rowSpan: "row-span-2", direction: "right" },
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "left" },
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-2", rowSpan: "row-span-2", direction: "right" },
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "left" },
-  { src: "https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "right" },
+  { src: "/assets/teamvanity.jpg", colSpan: "col-span-2", rowSpan: "row-span-1", direction: "left" },
+  { src: "/assets/team2.jpg", colSpan: "col-span-1", rowSpan: "row-span-2", direction: "right" },
+  { src: "/assets/team3.jpg", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "left" },
+  { src: "/assets/team1.jpg", colSpan: "col-span-2", rowSpan: "row-span-2", direction: "right" },
+  { src: "/assets/team4.jpg", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "left" },
+  { src: "/assets/team5.jpg", colSpan: "col-span-1", rowSpan: "row-span-1", direction: "right" },
 ];
 
 const imageVariants = {

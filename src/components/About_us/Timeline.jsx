@@ -36,11 +36,11 @@ const Timeline = () => {
           <div className="flex flex-wrap justify-center md:justify-between items-center gap-8">
             {/* Timeline Items */}
             {[
-                  { img: "/assets/logo3.png", text: "Founded in 2015", local: true }, // Local Image
-                  { img: "journey-2+(1).png", text: "100+ Clients Solarized" },
-                  { img: "journey-3+(1).png", text: "18,000+ Happy Customers" },
-                  { img: "journey-4+(1).png", text: "170+ Housing Societies" },
-                  { img: "journey-5+(1).png", text: "105+ Commercial Businesses" },
+                  { img: "/assets/logo3.png", text: "Founded in 2020", local: true }, // Local Image
+                  { img: "journey-2+(1).png", text: "600+ Clients Solarized" },
+                  { img: "journey-3+(1).png", text: "2,000+ Happy Customers" },
+                  { img: "journey-4+(1).png", text: "300+ Housing Societies" },
+                  { img: "journey-5+(1).png", text: "200+ Commercial Businesses" },
                   ].map((item, index) => (
                   <div key={index} className="timeline-item text-center opacity-0 translate-y-10 transition-all duration-1000">
                     <div className="w-20 h-20 flex items-center justify-center bg-white shadow-lg rounded-full mx-auto">

@@ -1,12 +1,12 @@
 import React from "react";
 
 const locations = [
-  { title: "Gujarat", cities: "Surat, Ahmedabad", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Gujarat.png" },
-  { title: "Maharashtra", cities: "Mumbai, Pune, Nasik, Nagpur, Chhatrapati Sambhajinagar", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Maharashtra.png" },
-  { title: "Madhya Pradesh", cities: "Bhopal, Indore, Gwalior, Jabalpur", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/MP.png" },
-  { title: "Rajasthan", cities: "Jaipur, Ajmer", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Rajasthan.png" },
-  { title: "Uttar Pradesh", cities: "Lucknow, Kanpur", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/UP.png" },
-  { title: "Others", cities: "Delhi NCR, Hyderabad, Bengaluru", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/UP.png" },
+  { title: " Varanasi", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Gujarat.png" },
+  { title: "Chandauli", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Maharashtra.png" },
+  { title: "Prayagraj", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/MP.png" },
+  { title: "Bhadohi", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/Rajasthan.png" },
+  { title: "Jaunpur", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/UP.png" },
+  { title: "Many more ", cities: "", icon: "https://sse-website.s3.ap-south-1.amazonaws.com/homes/UP.png" },
 ];
 
 const AnimatedLocations = () => {

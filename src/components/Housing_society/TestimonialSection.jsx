@@ -15,9 +15,8 @@ const TestimonialSection = () => {
         {/* Testimonial Text */}
         <p className="text-sm md:text-1xl font-semibold max-w-4xl leading-relaxed text-gray-900">
           
-Doctor electric  installed rooftop solar in our society in 2020 and have been doing regular maintenance visits for the last 3 years. We wanted only the best technology and best installer in India for our society’s solar project. We are glad we went ahead with Doctor electric . They genuinely care about doing safe, high-quality installations and ensure the high-performance of your solar system through maintenance.
+Doctor electric  installed rooftop solar in our society in 2020 and have been doing regular maintenance visits for the last 5 years. We wanted only the best technology and best installer in India for our society’s solar project. We are glad we went ahead with Doctor electric . They genuinely care about doing safe, high-quality installations and ensure the high-performance of your solar system through maintenance.
 
-Our monthly electricity bill has gone down from Rs 80,000+ to almost zero now
         </p>
 
         {/* Right Quote Icon (Reversed) */}
@@ -31,13 +30,13 @@ Our monthly electricity bill has gone down from Rs 80,000+ to almost zero now
         <div className="mt-8 flex flex-col items-center">
           <div className="relative">
             <img
-              src="	https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Satish+Mallya.png"
+              src="/assets/admin.jpg"
               alt="Testimonial Profile"
               className="w-20 h-20 rounded-full border-4 border-blue-500"
             />
           </div>
-          <p className="text-blue-600 font-bold mt-3 text-lg">N Krishnamoorthy,</p>
-          <p className="text-gray-600 text-md">Director, TVS & Sons</p>
+          <p className="text-blue-600 font-bold mt-3 text-lg"> Rukum Kesh Rai </p>
+          <p className="text-gray-600 text-md">Director, Doctor  Electric</p>
         </div>
       </div>
 

@@ -4,10 +4,24 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661961617519-ce160a561ee4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
-      <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center text-white px-4">
+    <div className="relative w-full h-screen">
+      {/* Background Video */}
+      <video 
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+      >
+        <source src="/assets/video2.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/70 z-11"></div>
+
+      {/* Content */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4 z-20">
         <motion.h1 
-          className="text-4xl md:text-6xl font-bold mb-4"
+          className="text-4xl md:text-6xl font-bold mb-4 shadow-lg"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -36,13 +50,13 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-3 bg-white shadow-lg rounded-lg p-3 px-5">
-        <img src="/assets/google-logo.png" alt="Google" className="w-12 h-12 rounded-full" />
-        <div>
-          <p className="text-gray-700 font-semibold">Doctor Electric  is India's trusted solar company</p>
-          <p className="text-blue-500 font-semibold">Rated 4.8 on Google with 5000+ customer reviews</p>
-        </div>
-      </div>
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-3 bg-white shadow-lg rounded-lg p-3 px-5 w-[90%] max-w-lg z-30">
+  <img src="/assets/google-logo.png" alt="Google" className="w-12 h-12 rounded-full" />
+  <div className="text-center md:text-left w-full">
+    <p className="text-gray-700 font-semibold">Doctor Electric is India's trusted solar company</p>
+    <p className="text-blue-500 font-semibold">Rated 4.8 on Google with 5000+ customer reviews</p>
+  </div>
+</div>
     </div>
   );
 };

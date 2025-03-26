@@ -16,7 +16,7 @@ const StatsComponent = () => {
         {/* Overlapping Image */}
         <div className="absolute bottom-[-50px] left-0 right-0 mx-auto w-[250px] lg:w-[500px]  ">
           <img
-            src="https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Van+sec+3.png"
+            src="/assets/van2.png"
             alt="Van"
             className="w-full drop-shadow-lg"
           />

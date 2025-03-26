@@ -41,7 +41,7 @@ const TestimonialSection = () => {
       {/* Lower Div - Full Width Image */}
       <div className="w-full">
         <img
-          src="https://www.solarsquare.in/images/housing-society/moving-van.png"
+          src="/assets/van.png"
           alt="City Illustration"
           className="w-full"
         />

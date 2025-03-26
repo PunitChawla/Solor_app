@@ -13,7 +13,7 @@ const SolarMaintenance = () => {
       <div className="flex flex-col lg:flex-row items-center max-w-8xl mx-auto gap-10 mt-12">
         {/* Image on the Left */}
         <img
-          src="	https://sse-website.s3.ap-south-1.amazonaws.com/know-more/Precision+2.png"
+          src="/assets/1.jpg"
           alt="Leakage-proof Solar Installation"
           className="w-full lg:w-1/2 rounded-lg shadow-lg"
         />
@@ -37,7 +37,7 @@ const SolarMaintenance = () => {
       <div className="flex flex-col lg:flex-row-reverse items-center max-w-8xl mx-auto gap-10 mt-16">
         {/* Image on the Right */}
         <img
-          src="https://sse-website.s3.ap-south-1.amazonaws.com/know-more/precision+1.png"
+          src="/assets/2.jpg"
           alt="Solar Maintenance Service"
           className="w-full lg:w-1/2 rounded-lg shadow-lg"
         />

@@ -13,7 +13,7 @@ const SavingsGuarantee = () => {
       {/* Image Section */}
       <div className="relative mt-10 flex justify-center">
         <img
-          src="https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/Gauranteed+performance.png"
+          src="/assets/teamvanity.jpg"
           alt="doctor electric  Guarantee"
           className="w-full max-w-4xl rounded-lg shadow-lg"
         />
@@ -47,3 +47,4 @@ const SavingsGuarantee = () => {
 };
 
 export default SavingsGuarantee;
+  
