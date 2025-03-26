@@ -9,15 +9,14 @@ const newsData = [
     id: 1,
     image: "/assets/news1.jpg", // Replace with actual paths
     title: "Solar can Secure your GENERATIONS FUTURE",
-    source: "Forbes",
     date: "Dec 12, 2024",
     link: "#",
   },
   {
     id: 2,
     image: "/assets/new2.jpg",
-    title: "एक कदम आगेसपनों की राह में",
-    source: "Business Today",
+    title: "एक कदम आगे सपनों की राह में",
+   
     date: "Dec 12, 2024",
     link: "#",
   },
@@ -25,7 +24,6 @@ const newsData = [
     id: 2,
     image: "/assets/news3.jpg",
     title: "आसान फाइनेंसिंग विकल्प",
-    source: "Business Today",
     date: "Dec 12, 2024",
     link: "#",
   },
@@ -33,7 +31,7 @@ const newsData = [
     id: 2,
     image: "/assets/news5.jpg",
     title: "सोलर रूफटॉप सिस्टम",
-    source: "Business Today",
+   
     date: "Dec 12, 2024",
     link: "#",
   },
@@ -41,7 +39,7 @@ const newsData = [
     id: 3,
     image: "/assets/news6.jpg",
     title: "पीएम सूर्य घर मुफ़्त बिजली योजना",
-    source: "The Hindu",
+  
     date: "Dec 12, 2024",
     link: "#",
   },

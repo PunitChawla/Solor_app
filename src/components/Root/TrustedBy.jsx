@@ -2,11 +2,11 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 const logos = [
-  "	https://sse-website.s3.ap-south-1.amazonaws.com/trusted-by/ddecore.png",
-  "https://sse-website.s3.ap-south-1.amazonaws.com/trusted-by/prince-piping-systems.svg",
-  "https://sse-website.s3.ap-south-1.amazonaws.com/trusted-by/tvs.svg",
-  "https://sse-website.s3.ap-south-1.amazonaws.com/trusted-by/johnson-and-johnson.svg",
-  "https://sse-website.s3.ap-south-1.amazonaws.com/trusted-by/ultratech-cement.svg",
+  "/assets/131.jpg",
+  "/assets/132.jpg",
+  "/assets/133.jpg",
+  "/assets/134.jpg",
+  "/assets/135.jpg",
 ];
 
 const TrustedBy = () => {

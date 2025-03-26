@@ -11,7 +11,7 @@ const VideoHero = () => {
         muted
         playsInline
       >
-        <source src="https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/SolarSquare+Housing+Society+Drone+Shot.mp4" type="video/mp4" />
+        <source src="/assets/video.mp4" type="video/mp4" />
       </video>
       
       {/* Content */}
