@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="relative mt-10 w-full h-screen flex flex-col items-center justify-center">
       {/* Upper Half with Blue Background */}
-      <div className="relative bg-blue-600 w-full h-1/2 rounded-b-2xl p-6 text-white text-center flex flex-col items-center justify-center">
+      <div className="relative bg-gradient-to-r from-blue-700 to-black  w-full h-1/2 rounded-b-2xl p-6 text-white text-center flex flex-col items-center justify-center">
         {/* Logos at the top */}
         <div className="flex justify-center gap-6">
           <img src="/assets/threelogo.png" alt="Logos" className="h-24" />
@@ -19,9 +19,9 @@ const Home = () => {
       {/* Overlapping Images (Hidden on Mobile) */}
       <div className="relative w-full flex justify-center -mt-16">
         <img
-          src="/assets/house.png"
+          src="/assets/10-Photoroom.png"
           alt="Solar House"
-          className="w-1/3 absolute mt-8 left-10 hidden md:block"
+          className="w-1/4 absolute mt-8 left-10 hidden md:block"
         />
         <img
           src="/assets/modi.png"

@@ -11,23 +11,23 @@ const SecondComponent = () => {
 
       {/* Content */}
       <div className="relative z-10">
-        {/* Heading */}
-        <h2 className="text-3xl font-bold text-blue-700 mb-6">
+        {/* Responsive Heading */}
+        <h2 className="text-blue-700 font-bold mb-6 text-3xl md:text-4xl lg:text-6xl">
           PM Surya Ghar Muft Bijli Yojana
         </h2>
 
         {/* Subsidy Details */}
-        <div className="flex flex-col gap-6 text-black font-medium text-lg">
+        <div className="flex flex-col gap-6 text-black font-medium text-lg md:text-3xl">
           <p>
-            1 किलोवाट, सोलर प्लांट पर{" "}
-            <span className="text-red-600 font-bold">₹45 हजार</span> की सब्सिडी
+            1 किलोवाट, सोलर प्लांट पर <br />
+            <span className="text-red-600 font-bold ">₹45 हजार</span> की सब्सिडी
           </p>
           <p>
-            2 किलोवाट, सोलर प्लांट पर{" "}
+            2 किलोवाट, सोलर प्लांट पर <br />
             <span className="text-red-600 font-bold">₹90 हजार</span> की सब्सिडी
           </p>
           <p>
-            3 किलोवाट व इससे अधिक के सोलर प्लांट पर{" "}
+            3 किलोवाट व इससे अधिक के सोलर प्लांट पर <br />
             <span className="text-red-600 font-bold">₹1 लाख 08 हजार</span> की
             सब्सिडी
           </p>

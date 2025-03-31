@@ -13,7 +13,7 @@ const SubsidyTable = () => {
         <table className="w-full border-collapse">
           {/* Table Head */}
           <thead>
-            <tr className="bg-blue-600 text-white text-left">
+            <tr className=" bg-gradient-to-r from-blue-700 to-black text-white text-left">
               <th className="p-3">प्लांट की क्षमता</th>
               <th className="p-3">केंद्र सरकार अनुदान</th>
               <th className="p-3">प्रदेश सरकार अनुदान</th>

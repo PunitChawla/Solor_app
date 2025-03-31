@@ -16,7 +16,7 @@ const LoanTable = () => {
         <table className="w-full border-collapse">
           {/* Table Head */}
           <thead>
-            <tr className="bg-blue-600 text-white text-left">
+            <tr className=" bg-gradient-to-r from-blue-700 to-black text-white text-left">
               <th className="p-3">Details</th>
               <th className="p-3">2kW Installation</th>
               <th className="p-3">3kW Installation</th>
