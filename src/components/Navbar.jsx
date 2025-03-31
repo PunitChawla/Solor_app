@@ -76,7 +76,7 @@ export default function Navbar() {
       <AnimatePresence>
         {isOpen && (
           <motion.div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-md" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5, ease: "easeOut" }}>
-            {[{ name: "Home", path: "/home" }, { name: "Housing Society", path: "/housing_society" }, { name: "Commercial", path: "/commercial" }, { name: "About Us", path: "/aboutus" }, { name: "Careers", path: "/careers" }].map((item, index) => (
+            {[{ name: "Home", path: "/home" }, { name: "Housing Society", path: "/housing_society" }, { name: "Commercial", path: "/commercial" }, { name: "About Us", path: "/aboutus" }, { name: "subsidies", path: "/subsidies" }].map((item, index) => (
               <motion.div key={index} initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 * index, ease: "easeOut" }}>
                 <Link to={item.path} className="block px-6 py-3 border-b hover:bg-gray-100" onClick={() => setIsOpen(false)}>
                   {item.name}
