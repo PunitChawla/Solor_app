@@ -26,7 +26,7 @@ const SolarEnquiryForm = () => {
 
     const emailData = {
       message: formattedMessage,
-      to_name: "Punit",
+      to_name: "Rukum Kesh rai ",
       to_email: "yt.doctorelectric@gmail.com",
     };
 

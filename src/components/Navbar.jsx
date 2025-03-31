@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          {[{ name: "Home", path: "/home" }, { name: "Housing Society", path: "/housing_society" }, { name: "Commercial", path: "/commercial" }, { name: "About Us", path: "/aboutus" }, { name: "Careers", path: "/careers" }].map((item, index) => (
+          {[{ name: "Home", path: "/home" }, { name: "Housing Society", path: "/housing_society" }, { name: "Commercial", path: "/commercial" }, { name: "About Us", path: "/aboutus" }, { name: "Subsidies", path: "/subsidies" }].map((item, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: -10 }}
@@ -43,7 +43,7 @@ export default function Navbar() {
           ))}
 
           {/* More Dropdown */}
-          <div className="relative">
+          {/* <div className="relative">
             <button className="flex items-center text-gray-800 hover:text-black" onClick={() => setDropdownOpen(!dropdownOpen)}>
               More <ChevronDown size={18} className="ml-1" />
             </button>
@@ -56,7 +56,7 @@ export default function Navbar() {
                 </motion.div>
               )}
             </AnimatePresence>
-          </div>
+          </div> */}
         </div>
 
         {/* CTA Button */}
@@ -85,7 +85,7 @@ export default function Navbar() {
             ))}
 
             {/* More Dropdown (Mobile) */}
-            <motion.div className="border-b" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}>
+            {/* <motion.div className="border-b" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}>
               <button className="w-full flex justify-between px-6 py-3 hover:bg-gray-100" onClick={() => setDropdownOpen(!dropdownOpen)}>
                 More <ChevronDown size={18} />
               </button>
@@ -97,7 +97,7 @@ export default function Navbar() {
                   </motion.div>
                 )}
               </AnimatePresence>
-            </motion.div>
+            </motion.div> */}
 
             {/* CTA Button (Mobile) */}
             <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}>

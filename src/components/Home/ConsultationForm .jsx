@@ -26,7 +26,7 @@ const ConsultationForm = () => {
 
     const emailData = {
       from_name: formData.fullName || "N/A",
-      to_name: "Harshi",
+      to_name: "Rukum Kesh rai ",
       from_email: formData.email || "N/A",
       to_email: "yt.doctorelectric@gmail.com",
       message: `WhatsApp: ${formData.whatsapp}\n

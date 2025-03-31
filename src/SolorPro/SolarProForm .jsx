@@ -8,10 +8,10 @@ const SolarProForm = () => {
     e.preventDefault();
     
     emailjs.sendForm(
-      "your_service_id", // Replace with your Email.js service ID
-      "your_template_id", // Replace with your Email.js template ID
+      "service_iesp3p5", // Replace with your Email.js service ID
+      "template_sdshsc9", // Replace with your Email.js template ID
       form.current,
-      "your_public_key" // Replace with your Email.js public key
+      "3y4Z1YVydTBC0Y5hT" // Replace with your Email.js public key
     ).then(
       (result) => {
         console.log("Email sent successfully", result.text);

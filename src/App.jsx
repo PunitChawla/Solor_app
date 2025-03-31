@@ -8,6 +8,7 @@ import About_us from './pages/AboutUs';
 import Go_solar from './pages/Go-solar';
 import SolarPro from './pages/SolarPro';
 import WorkInProgress from './components/WorkInProgress';
+import Subsidies from './pages/Subsidies';
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
         <Route path="/housing_society" element={<Housing_society/>} />
         <Route path="/aboutus" element={<About_us/>} />
         <Route path="/go-solar" element={<Go_solar/>} />
-        <Route path="/solarpro" element={<SolarPro/>} />
+        {/* <Route path="/solarpro" element={<SolarPro/>} /> */}
         <Route path="/careers" element={<WorkInProgress/>} />
-        <Route path="/blog" element={<WorkInProgress/>} />
+        <Route path="/subsidies" element={<Subsidies/>} />
+        {/* <Route path="/blog" element={<WorkInProgress/>} /> */}
       </Routes>
     </Router>
   );
