@@ -8,7 +8,7 @@ const WhoWeAre = () => {
 
       {/* Single Image Centered */}
       <img
-        src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/who-are-we-mobile.png" 
+        src="/assets/Who Are We.png" 
         alt="Our Team"
         className="w-96 rounded-lg shadow-lg mb-8"
       />
