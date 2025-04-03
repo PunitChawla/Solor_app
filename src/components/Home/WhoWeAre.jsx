@@ -22,9 +22,9 @@ const WhoWeAre = () => {
       <div className="flex flex-wrap justify-center gap-6 w-full max-w-4xl">
         {[
           { number: "4.8", text: "rating on Google with 5000+ reviews" },
-          { number: "10+", text: "years of experience" },
+          { number: "5+", text: "years of experience" },
           { number: "18,000+", text: "homes solarised" },
-          { number: "₹90+ Cr", text: "Savings for families across India (2020 – 2024)" },
+          { number: "₹30+ Cr", text: "Savings for families across India (2020 – 2024)" },
         ].map((stat, index) => (
           <div
             key={index}
