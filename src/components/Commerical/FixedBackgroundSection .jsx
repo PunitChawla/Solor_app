@@ -17,7 +17,7 @@ const FixedBackgroundSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {/* Van Image */}
           <img
-            src="https://www.solarsquare.in/images/cm-stats-truck.png"
+            src="/assets/cutvan.png"
             alt="Van"
             className="w-56 md:w-72 lg:w-80 drop-shadow-lg"
           />
@@ -31,7 +31,7 @@ const FixedBackgroundSection = () => {
             </div>
             <div>
               <img src="https://sse-website.s3.ap-south-1.amazonaws.com/housing-society/hs-section-3-3.svg" alt="Years Experience" className="mx-auto w-12" />
-              <h2 className="text-2xl font-bold">10+</h2>
+              <h2 className="text-2xl font-bold">5+</h2>
               <p className="text-base">Years Experience</p>
             </div>
             <div>
@@ -41,7 +41,7 @@ const FixedBackgroundSection = () => {
             </div>
             <div>
               <img src="https://www.solarsquare.in/images/cm-stats-2.svg" alt="Savings" className="mx-auto w-12" />
-              <h2 className="text-2xl font-bold">140+ Cr</h2>
+              <h2 className="text-2xl font-bold">30+ Cr</h2>
               <p className="text-base">Saving Annually</p>
             </div>
           </div>

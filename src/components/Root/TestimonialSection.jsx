@@ -2,28 +2,44 @@ import React, { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    text: "Being an engineer myself, I am extremely satisfied with the team of SolarSquare. They have done an amazing job in the construction of my solar. The team is very efficient and knowledgeable. They installed my system in just two days. I am amazed by the sound knowledge of the team. I highly recommend SolarSquare to everyone.",
-    author: "Gandharv Chauhan, Rajasthan, Home solar system",
+    text: "I got a 5kW solar system installed at my home in Varanasi by Doctor Electric. The entire process was smooth, and the team was very professional. They completed the installation within the promised time, and now my electricity bills have significantly reduced. Highly recommend their services!",
+    author: " Ankit Sharma (⭐⭐⭐⭐⭐)",
   },
   {
-    text: "I am happy to acknowledge that SolarSquare has met the strictest Quality & Safety norms dictated by the Global Standards of Johnson & Johnson.",
-    author: "Anish Sengupta, EHS & S, Johnson & Johnson",
+    text: "Doctor Electric installed a 7kW solar system on my commercial property in Lanka, Varanasi. The team explained everything in detail, and the installation was done without any hassle. I’m already seeing great savings on my electricity bills. Great service!",
+    author: " Ramesh Tiwari (⭐⭐⭐⭐⭐)",
   },
   {
-    text: "SolarSquare provided excellent service. The installation process was smooth, and their team was very professional.",
-    author: "Neha Sharma, Mumbai",
+    text: "We got a 6kW rooftop solar setup installed in our apartment near BHU. The team was knowledgeable, and the panel quality is excellent. They also helped with the subsidy paperwork. Very satisfied with their work!",
+    author: "Pooja Srivastava (⭐⭐⭐⭐⭐)",
   },
   {
-    text: "Great experience with SolarSquare. The solar panel system is working efficiently, and I am very happy with the service.",
-    author: "Ravi Kumar, Bangalore",
+    text: "I was hesitant about going solar, but Doctor Electric made the whole process simple. They installed an 8kW solar panel system for our school in Assi Ghat. The installation was quick, and the performance so far is amazing!",
+    author: "Vishal Pandey (⭐⭐⭐⭐⭐)",
   },
   {
-    text: "The best solar solution provider! Highly recommended for their amazing support and quality work.",
-    author: "Amit Patel, Gujarat",
+    text: "The best solar panel installation company in Varanasi! They installed a 6.5kW system at my shop in Godowlia. The team was punctual and professional, and now I’m enjoying free electricity during the daytime.",
+    author: " Meera Jaiswal (⭐⭐⭐⭐⭐)",
   },
   {
-    text: "SolarSquare made going solar so easy. The installation was quick, and I am already seeing great savings on my electricity bills!",
-    author: "Priya Verma, Delhi",
+    text: "Doctor Electric did an excellent job installing a hybrid solar system at my farmhouse in Sarnath. Their team is experienced, and the pricing is fair. The panels are performing well, and I am happy with the investment.",
+    author: "Ajay Verma (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "I opted for a solar panel system with battery backup for my house near Sigra, and I am 100% satisfied. Even during power cuts, I have electricity. The team is professional and reliable.",
+    author: "Rohit Mishra (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "Doctor Electric installed a 6kW solar setup at our factory in Chandpur. They provided top-quality panels and an efficient inverter. I highly recommend them for commercial solar projects.",
+    author: "Sunita Yadav (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "Got a 7kW on-grid solar panel installed at my home in Bhelupur. The system is running perfectly, and the installation team was very professional. I am already seeing savings on my bills!",
+    author: "Arvind Gupta (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "The best decision I made was choosing Doctor Electric for my solar panel installation in Varanasi. They finished the work in just 2 days, and the system is working flawlessly. Highly recommended!",
+    author: "Neha Rastogi (⭐⭐⭐⭐⭐)",
   }
 ];
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://sse-website.s3.ap-south-1.amazonaws.com/commercial/commercial-banner.png')" }}>
+    <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg.jpg')" }}>
       <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center text-white px-4">
         <motion.h1 
           className="text-4xl md:text-6xl font-bold mb-4"

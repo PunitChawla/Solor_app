@@ -3,32 +3,44 @@ import { FaChevronDown } from "react-icons/fa";
 
 const testimonials = [
   {
-    id: 1,
-    image: "https://www.solarsquare.in/images/cm-carousel-1.png",
-    text: "Solar team was very professional and had excellent interpersonal relations. Asbestos to GI roof sheet replacement and 2MW Solar Project was completed within 3 months time without escalations.",
-    author: "C K Tharad, Senior VP, LNJ Bhilwara Group",
-    isHighlighted: true,
+    text: "I got a 5kW solar system installed at my home in Varanasi by Doctor Electric. The entire process was smooth, and the team was very professional. They completed the installation within the promised time, and now my electricity bills have significantly reduced. Highly recommend their services!",
+    author: "Ankit Sharma (⭐⭐⭐⭐⭐)",
   },
   {
-    id: 2,
-    image: "https://www.solarsquare.in/images/cm-carousel-2.png",
-    text: "I am happy to acknowledge that doctor electric  has met the strictest Quality & Safety norms dictated by the Global Standards of Johnson & Johnson.",
-    author: "Anish Sengupta, EHS & S, Johnson & Johnson",
-    isHighlighted: false,
+    text: "Doctor Electric installed a 7kW solar system on my commercial property in Lanka, Varanasi. The team explained everything in detail, and the installation was done without any hassle. I’m already seeing great savings on my electricity bills. Great service!",
+    author: "Ramesh Tiwari (⭐⭐⭐⭐⭐)",
   },
   {
-    id: 3,
-    image: "https://www.solarsquare.in/images/cm-carousel-1.png",
-    text: "Excellent service from doctor electric ! Their team ensured smooth execution of our 1.5MW project while maintaining top-notch safety standards.",
-    author: "Ramesh Patel, Director, ABC Corp",
-    isHighlighted: true,
+    text: "We got a 6kW rooftop solar setup installed in our apartment near BHU. The team was knowledgeable, and the panel quality is excellent. They also helped with the subsidy paperwork. Very satisfied with their work!",
+    author: "Pooja Srivastava (⭐⭐⭐⭐⭐)",
   },
   {
-    id: 4,
-    image: "https://www.solarsquare.in/images/cm-carousel-2.png",
-    text: "The professionalism and expertise of doctor electric  exceeded our expectations. The project was completed on time with remarkable efficiency.",
-    author: "Sunil Mehta, CEO, Green Energy Solutions",
-    isHighlighted: false,
+    text: "I was hesitant about going solar, but Doctor Electric made the whole process simple. They installed an 8kW solar panel system for our school in Assi Ghat. The installation was quick, and the performance so far is amazing!",
+    author: "Vishal Pandey (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "The best solar panel installation company in Varanasi! They installed a 6.5kW system at my shop in Godowlia. The team was punctual and professional, and now I’m enjoying free electricity during the daytime.",
+    author: "Meera Jaiswal (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "Doctor Electric did an excellent job installing a hybrid solar system at my farmhouse in Sarnath. Their team is experienced, and the pricing is fair. The panels are performing well, and I am happy with the investment.",
+    author: "Ajay Verma (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "I opted for a solar panel system with battery backup for my house near Sigra, and I am 100% satisfied. Even during power cuts, I have electricity. The team is professional and reliable.",
+    author: "Rohit Mishra (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "Doctor Electric installed a 6kW solar setup at our factory in Chandpur. They provided top-quality panels and an efficient inverter. I highly recommend them for commercial solar projects.",
+    author: "Sunita Yadav (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "Got a 7kW on-grid solar panel installed at my home in Bhelupur. The system is running perfectly, and the installation team was very professional. I am already seeing savings on my bills!",
+    author: "Arvind Gupta (⭐⭐⭐⭐⭐)",
+  },
+  {
+    text: "The best decision I made was choosing Doctor Electric for my solar panel installation in Varanasi. They finished the work in just 2 days, and the system is working flawlessly. Highly recommended!",
+    author: "Neha Rastogi (⭐⭐⭐⭐⭐)",
   },
 ];
 
@@ -52,21 +64,15 @@ const TestimonialScroller = () => {
       {/* Testimonial Container */}
       <div className="relative w-full max-w-4xl flex flex-col items-center space-y-6">
         {/* Main Testimonial (Highlighted, Bigger) */}
-        <div className="w-full flex flex-col md:flex-row items-center bg-blue-800 text-white p-8 md:p-10 rounded-xl shadow-lg scale-110 transition-all duration-500">
-          <img src={testimonials[index].image} alt="Client" className="w-48 h-28 rounded-lg object-cover" />
-          <div className="ml-4">
-            <p className="text-xl">{testimonials[index].text}</p>
-            <p className="font-bold mt-2">{testimonials[index].author}</p>
-          </div>
+        <div className="w-full flex flex-col bg-blue-800 text-white p-8 md:p-10 rounded-xl shadow-lg scale-110 transition-all duration-500">
+          <p className="text-xl">{testimonials[index].text}</p>
+          <p className="font-bold mt-2">{testimonials[index].author}</p>
         </div>
 
         {/* Secondary Testimonial (Smaller & Light Background) */}
-        <div className="w-full flex flex-col md:flex-row items-center bg-gray-200 text-gray-700 p-4 md:p-6 rounded-xl scale-90 transition-all duration-500">
-          <img src={testimonials[(index + 1) % testimonials.length].image} alt="Client" className="w-40 h-24 rounded-lg object-cover" />
-          <div className="ml-4">
-            <p className="text-base">{testimonials[(index + 1) % testimonials.length].text}</p>
-            <p className="font-bold mt-2">{testimonials[(index + 1) % testimonials.length].author}</p>
-          </div>
+        <div className="w-full flex flex-col bg-gray-200 text-gray-700 p-4 md:p-6 rounded-xl scale-90 transition-all duration-500">
+          <p className="text-base">{testimonials[(index + 1) % testimonials.length].text}</p>
+          <p className="font-bold mt-2">{testimonials[(index + 1) % testimonials.length].author}</p>
         </div>
       </div>
 

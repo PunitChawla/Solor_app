@@ -46,14 +46,14 @@ const Solar_square = () => {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg">Careers</h3>
             <ul className="space-y-2">
               <li><Link to="/careers">Careers</Link></li>
               <li><Link to="/on-grid-solar">On-Grid Solar</Link></li>
               <li><Link to="/off-grid-solar">Off-Grid Solar</Link></li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

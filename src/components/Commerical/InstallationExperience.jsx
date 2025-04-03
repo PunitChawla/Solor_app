@@ -10,11 +10,11 @@ const InstallationExperience = () => {
       </h2>
 
       {/* Image Container */}
-      <div className="mt-8 flex flex-col md:flex-row gap-6 max-w-7xl w-full">
+      <div className="mt-8 flex flex-col md:flex-row gap-6 max-w-6xl w-full">
         {/* Card 1 */}
         <div className="relative w-full md:w-1/2 rounded-lg overflow-hidden">
           <img
-            src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/solarsquare-1667395824454.jpg"
+            src="/assets/install1.jpg"
             alt="Installation Crew"
             className="w-full h-full object-cover"
           />
@@ -33,7 +33,7 @@ const InstallationExperience = () => {
         {/* Card 2 */}
         <div className="relative w-full md:w-1/2 rounded-lg overflow-hidden">
           <img
-            src="https://sse-website.s3.ap-south-1.amazonaws.com/homes/ur-story.png"
+            src="/assets/install2.jpg"
             alt="Precision Designs"
             className="w-full h-full object-cover"
           />

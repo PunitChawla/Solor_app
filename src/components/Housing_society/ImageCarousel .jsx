@@ -5,29 +5,44 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projectData = [
   {
-    img: "/assets/project5.jpg",
-    title: "Maurishka Palace, Mangalore",
-    subtitle: "140 kW rooftop solar, September 2020",
-  },
-  {
     img: "/assets/project1.jpg",
-    title: "Maruadih Rly. Settlement , Uttar Pradesh India ",
-    subtitle: "100 kW rooftop solar, June 2021",
+    title: "Our Projects ",
   },
   {
     img: "/assets/project2.jpg",
-    title: "Project 3 Title",
-    subtitle: "150 kW rooftop solar, July 2023",
+    title: "Our Projects ",
   },
   {
     img: "/assets/project3.jpg",
-    title: "Project 4 Title",
-    subtitle: "120 kW rooftop solar, March 2022",
+    title: "Our Projects ",
   },
   {
     img: "/assets/project4.jpg",
-    title: "Project 5 Title",
-    subtitle: "150 kW rooftop solar, July 2023",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project5.jpg",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project6.jpg",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project7.jpg",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project8.jpg",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project9.jpg",
+    title: "Our Projects ",
+  },
+  {
+    img: "/assets/project10.jpg",
+    title: "Our Projects ",
   },
 ];
 
@@ -62,7 +77,7 @@ const ImageCarousel = () => {
                 <img
                   src={project.img}
                   alt={project.title}
-                  className="w-full h-80 object-cover rounded-xl"
+                  className="w-full h-96 object-cover rounded-xl"
                 />
               </div>
             </div>

@@ -44,7 +44,7 @@ const StatsComponent = () => {
             className="w-12 h-12"
           />
           <div>
-            <p className="text-2xl font-bold">150+ MWp</p>
+            <p className="text-2xl font-bold">130+ MWp</p>
             <p className="text-gray-600">Installation Experience</p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const StatsComponent = () => {
             className="w-12 h-12"
           />
           <div>
-            <p className="text-2xl font-bold">₹90+ Cr</p>
+            <p className="text-2xl font-bold">₹30+ Cr</p>
             <p className="text-gray-600">Savings for Families (2020-2024)</p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const StatsComponent = () => {
             className="w-12 h-12"
           />
           <div>
-            <p className="text-2xl font-bold">10+ years</p>
+            <p className="text-2xl font-bold">5+ years</p>
             <p className="text-gray-600">Experience in the Industry</p>
           </div>
         </div>
