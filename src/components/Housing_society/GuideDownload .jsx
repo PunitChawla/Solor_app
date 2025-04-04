@@ -6,7 +6,7 @@ const GuideDownload = () => {
     <div className="h-screen bg-[#06CAF6] flex flex-col lg:flex-row items-center justify-center px-6 py-12 text-center lg:text-left">
       {/* Left Section */}
       <div className="lg:w-[55%] flex flex-col items-center lg:items-start text-[#0A0B6A]">
-        <h2 className="text-3xl md:text-5xl font-bold leading-tight">
+        <h2 className="text-2xl md:text-5xl font-bold leading-tight">
           A Guide To Going Solar <br /> For Housing Societies
         </h2>
         <p className="text-lg mt-4 max-w-2xl text-black">
