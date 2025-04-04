@@ -41,8 +41,8 @@ const Solar_square = () => {
             <h3 className="font-semibold text-lg">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link to="/aboutus">About Us</Link></li>
-              <li><Link to="/solarpro">SolarPro Partner</Link></li>
-              <li><Link to="/sitemap">Sitemap</Link></li>
+              {/* <li><Link to="/solarpro">SolarPro Partner</Link></li> */}
+              {/* <li><Link to="/sitemap">Sitemap</Link></li> */}
             </ul>
           </div>
 

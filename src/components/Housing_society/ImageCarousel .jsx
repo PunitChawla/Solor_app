@@ -4,46 +4,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const projectData = [
-  {
-    img: "/assets/project1.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project2.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project3.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project4.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project5.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project6.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project7.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project8.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project9.jpg",
-    title: "Our Projects ",
-  },
-  {
-    img: "/assets/project10.jpg",
-    title: "Our Projects ",
-  },
+  { img: "/assets/project1.jpg", title: "Our Projects" },
+  { img: "/assets/project2.jpg", title: "Our Projects" },
+  { img: "/assets/project3.jpg", title: "Our Projects" },
+  { img: "/assets/project4.jpg", title: "Our Projects" },
+  { img: "/assets/project5.jpg", title: "Our Projects" },
+  { img: "/assets/project6.jpg", title: "Our Projects" },
+  { img: "/assets/project7.jpg", title: "Our Projects" },
+  { img: "/assets/project8.jpg", title: "Our Projects" },
+  { img: "/assets/project9.jpg", title: "Our Projects" },
+  { img: "/assets/project10.jpg", title: "Our Projects" },
 ];
 
 const ImageCarousel = () => {
@@ -57,10 +27,25 @@ const ImageCarousel = () => {
     centerMode: true,
     centerPadding: "0px",
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 1500,
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+        },
+      },
+    ],
   };
 
   return (
@@ -71,7 +56,7 @@ const ImageCarousel = () => {
             <div key={index} className="px-4">
               <div
                 className={`relative rounded-xl shadow-lg overflow-hidden transition-all duration-500 flex justify-center ${
-                  index === currentSlide ? "scale-110" : "scale-90 opacity-75"
+                  index === currentSlide ? "scale-90" : "scale-90 opacity-75"
                 }`}
               >
                 <img
@@ -85,7 +70,6 @@ const ImageCarousel = () => {
         </Slider>
         <div className="text-center mt-8">
           <h2 className="text-3xl font-bold text-white">{projectData[currentSlide].title}</h2>
-          <p className="text-lg text-white">{projectData[currentSlide].subtitle}</p>
         </div>
       </div>
     </div>
