@@ -16,7 +16,12 @@ const ConsultationForm = () => {
 
   const [selectedDesignation, setSelectedDesignation] = useState(null);
 
-  const designations = ["Management committee member", "Resident", "Builder", "Facility Manager"];
+  const designations = [
+    "Management committee member",
+    "Resident",
+    "Builder",
+    "Facility Manager",
+  ];
   const electricityOptions = ["0 - 50,000", "50,000 - 2,00,000", "> 2,00,000"];
 
   const handleChange = (e) => {
@@ -42,10 +47,10 @@ const ConsultationForm = () => {
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_iesp3p5",
+        "template_sdshsc9",
         formData,
-        "YOUR_PUBLIC_KEY"
+        "3y4Z1YVydTBC0Y5hT"
       )
       .then(
         (response) => {
@@ -64,10 +69,12 @@ const ConsultationForm = () => {
       {/* Left Side - Text */}
       <div className="text-white text-center lg:text-left max-w-lg lg:w-1/2">
         <h2 className="text-3xl font-bold">
-          Schedule a <span className="text-blue-400">FREE consultation</span> with us today!
+          Schedule a <span className="text-blue-400">FREE consultation</span>{" "}
+          with us today!
         </h2>
         <p className="mt-3 text-lg">
-          Get genuine advice from our solar experts. No pressure, book only if you are satisfied!
+          Get genuine advice from our solar experts. No pressure, book only if
+          you are satisfied!
         </p>
       </div>
 
@@ -128,7 +135,9 @@ const ConsultationForm = () => {
               className="w-1/2 p-3 border rounded-md"
             >
               {electricityOptions.map((option, index) => (
-                <option key={index} value={option}>{option}</option>
+                <option key={index} value={option}>
+                  {option}
+                </option>
               ))}
             </select>
           </div>
@@ -161,9 +170,15 @@ const ConsultationForm = () => {
             onChange={handleChange}
             className="w-full p-3 border rounded-md"
           >
-            <option value="We already have AGM approval">We already have AGM approval</option>
-            <option value="We are in process of getting AGM approval">We are in process of getting AGM approval</option>
-            <option value="We do not have AGM approval">We do not have AGM approval</option>
+            <option value="We already have AGM approval">
+              We already have AGM approval
+            </option>
+            <option value="We are in process of getting AGM approval">
+              We are in process of getting AGM approval
+            </option>
+            <option value="We do not have AGM approval">
+              We do not have AGM approval
+            </option>
           </select>
 
           {/* Terms & Submit */}
@@ -177,8 +192,14 @@ const ConsultationForm = () => {
             />
             <label className="text-gray-700 text-sm">
               I agree to SolarSquare's{" "}
-              <a href="#" className="text-blue-500">terms of service</a> &{" "}
-              <a href="#" className="text-blue-500">privacy policy</a>.
+              <a href="#" className="text-blue-500">
+                terms of service
+              </a>{" "}
+              &{" "}
+              <a href="#" className="text-blue-500">
+                privacy policy
+              </a>
+              .
             </label>
           </div>
 

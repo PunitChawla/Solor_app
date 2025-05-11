@@ -10,7 +10,8 @@ const GuideDownload = () => {
           A Guide To Going Solar <br /> For Housing Societies
         </h2>
         <p className="text-lg mt-4 max-w-2xl text-black">
-          Learn everything you need to know before installing a rooftop solar system in your society.
+          Learn everything you need to know before installing a rooftop solar
+          system in your society.
         </p>
 
         {/* Key Points */}
