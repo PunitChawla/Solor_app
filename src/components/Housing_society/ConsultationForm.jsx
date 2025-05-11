@@ -8,7 +8,7 @@ const ConsultationForm = () => {
     pinCode: "",
     city: "",
     whatsapp: "",
-    electricityBill: "0 - 50,000",
+    electricityBill: "Billing amount",
     designation: "",
     agmApproval: "We already have AGM approval",
     agreeTerms: false,
@@ -22,7 +22,12 @@ const ConsultationForm = () => {
     "Builder",
     "Facility Manager",
   ];
-  const electricityOptions = ["0 - 50,000", "50,000 - 2,00,000", "> 2,00,000"];
+  const electricityOptions = [
+    "Billing amount",
+    "0 - 50,000",
+    "50,000 - 2,00,000",
+    "> 2,00,000",
+  ];
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
