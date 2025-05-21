@@ -28,6 +28,7 @@ const SolarEnquiryForm = () => {
       message: formattedMessage,
       to_name: "Rukum Kesh rai ",
       to_email: "yt.doctorelectric@gmail.com",
+      // to_email: "chawlapunit79@gmail.com",
     };
 
     emailjs
@@ -36,6 +37,10 @@ const SolarEnquiryForm = () => {
         "template_sdshsc9", // Your modified Email.js template ID
         emailData,
         "3y4Z1YVydTBC0Y5hT" // Replace with your Email.js public key
+        // "service_d3cdzae",
+        // "template_oj46d4p",
+        // emailData,
+        // "jo3jDEFHVH-V0Lwql"
       )
       .then(
         () => {
@@ -56,7 +61,8 @@ const SolarEnquiryForm = () => {
         {/* Left Section */}
         <div className="text-white text-center md:text-left flex-1">
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-            Submit a <span className="text-blue-400">Solar Project</span> Enquiry
+            Submit a <span className="text-blue-400">Solar Project</span>{" "}
+            Enquiry
           </h2>
           <p className="mt-4 text-base md:text-lg">
             Our solar experts will guide you in your solar journey.
@@ -65,10 +71,16 @@ const SolarEnquiryForm = () => {
 
         {/* Right Section (Form) */}
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg w-full md:w-[55%]">
-          <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-4"
+          >
             {/* Name */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">Name *</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                Name *
+              </label>
               <input
                 type="text"
                 name="name"
@@ -79,7 +91,9 @@ const SolarEnquiryForm = () => {
 
             {/* Company Name */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">Company Name *</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                Company Name *
+              </label>
               <input
                 type="text"
                 name="companyName"
@@ -90,7 +104,9 @@ const SolarEnquiryForm = () => {
 
             {/* WhatsApp Number */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">WhatsApp Number *</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                WhatsApp Number *
+              </label>
               <input
                 type="tel"
                 name="whatsapp"
@@ -101,7 +117,9 @@ const SolarEnquiryForm = () => {
 
             {/* City */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">City *</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                City *
+              </label>
               <input
                 type="text"
                 name="city"
@@ -112,7 +130,9 @@ const SolarEnquiryForm = () => {
 
             {/* Company Pin Code */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">Company Pin Code</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                Company Pin Code
+              </label>
               <input
                 type="text"
                 name="pinCode"
@@ -122,7 +142,9 @@ const SolarEnquiryForm = () => {
 
             {/* Average Monthly Bill */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700">Average Monthly Bill *</label>
+              <label className="block text-sm font-semibold text-gray-700">
+                Average Monthly Bill *
+              </label>
               <input
                 type="text"
                 name="monthlyBill"

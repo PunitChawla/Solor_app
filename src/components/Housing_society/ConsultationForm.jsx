@@ -196,7 +196,7 @@ const ConsultationForm = () => {
               className="w-4 h-4"
             />
             <label className="text-gray-700 text-sm">
-              I agree to SolarSquare's{" "}
+              I agree to Doctor electric's{" "}
               <a href="#" className="text-blue-500">
                 terms of service
               </a>{" "}

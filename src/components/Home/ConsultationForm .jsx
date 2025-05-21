@@ -29,18 +29,19 @@ const ConsultationForm = () => {
       to_name: "Rukum Kesh rai ",
       from_email: formData.email || "N/A",
       to_email: "yt.doctorelectric@gmail.com",
-      message: `WhatsApp: ${formData.whatsapp}\n
+      message: `Name : ${formData.fullName}\n
+                WhatsApp: ${formData.whatsapp}\n
                 Monthly Electricity Bill: ${formData.electricityBill}\n
                 Pin Code: ${formData.pinCode}\n
                 City: ${formData.city || "N/A"}\n
-                Email: ${formData.email || "N/A"}`
+                Email: ${formData.email || "N/A"}`,
     };
 
     console.log("Sending Email with Data:", emailData); // Debugging
 
     try {
       await emailjs.send(
-        "service_iesp3p5",  // Replace with your Email.js service ID
+        "service_iesp3p5", // Replace with your Email.js service ID
         "template_sdshsc9", // Replace with your Email.js template ID
         emailData,
         "3y4Z1YVydTBC0Y5hT" // Replace with your Email.js public key
@@ -66,10 +67,12 @@ const ConsultationForm = () => {
       {/* Left Content */}
       <div className="w-full md:w-1/2 p-6">
         <h2 className="text-3xl font-bold">
-          Schedule a <span className="text-cyan-400">FREE consultation</span> with us today!
+          Schedule a <span className="text-cyan-400">FREE consultation</span>{" "}
+          with us today!
         </h2>
         <p className="mt-2 text-gray-200">
-          Get genuine advice from our solar experts. No pressure, book only if you are satisfied!
+          Get genuine advice from our solar experts. No pressure, book only if
+          you are satisfied!
         </p>
       </div>
 
@@ -104,24 +107,30 @@ const ConsultationForm = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block font-semibold">Monthly Electricity Bill *</label>
+            <label className="block font-semibold">
+              Monthly Electricity Bill *
+            </label>
             <div className="flex flex-wrap gap-2 mt-2">
-              {["< ₹1500", "₹1500 - ₹2500", "₹2500 - ₹4000", "₹4000 - ₹8000", "> ₹8000"].map(
-                (option) => (
-                  <button
-                    key={option}
-                    type="button"
-                    className={`px-3 py-2 border rounded ${
-                      formData.electricityBill === option
-                        ? "bg-black text-white"
-                        : "bg-white text-black"
-                    }`}
-                    onClick={() => handleElectricityBillSelect(option)}
-                  >
-                    {option}
-                  </button>
-                )
-              )}
+              {[
+                "< ₹1500",
+                "₹1500 - ₹2500",
+                "₹2500 - ₹4000",
+                "₹4000 - ₹8000",
+                "> ₹8000",
+              ].map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  className={`px-3 py-2 border rounded ${
+                    formData.electricityBill === option
+                      ? "bg-black text-white"
+                      : "bg-white text-black"
+                  }`}
+                  onClick={() => handleElectricityBillSelect(option)}
+                >
+                  {option}
+                </button>
+              ))}
             </div>
           </div>
 
@@ -162,8 +171,8 @@ const ConsultationForm = () => {
 
           <div className="mb-4">
             <label className="flex items-center text-sm">
-              <input type="checkbox" className="mr-2" required />
-              I agree to doctor electric's{" "}
+              <input type="checkbox" className="mr-2" required />I agree to
+              doctor electric's_{" "}
               <a href="#" className="text-blue-500 underline">
                 terms of service
               </a>{" "}
